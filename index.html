@@ -2,12 +2,13 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jurassic World - Nguyễn Gia Lạc</title>
 
 <style>
 body {
     margin:0;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     background: linear-gradient(to right,#0f2027,#203a43,#2c5364);
     color:white;
 }
@@ -16,6 +17,7 @@ header{
     text-align:center;
     padding:20px;
     font-size:30px;
+    font-weight:bold;
     color:#00ffcc;
 }
 
@@ -35,6 +37,7 @@ nav a{
     color:white;
     margin:10px;
     text-decoration:none;
+    font-weight:bold;
 }
 
 nav a:hover{
@@ -50,12 +53,14 @@ section{
 h2{
     color:#00ffcc;
     border-bottom:2px solid #00ffcc;
+    padding-bottom:5px;
 }
 
 .card{
     background:rgba(255,255,255,0.05);
     padding:15px;
     border-radius:10px;
+    margin-top:10px;
 }
 
 .gallery{
@@ -68,8 +73,19 @@ h2{
     width:45%;
     margin:10px;
     border-radius:10px;
+    transition:0.3s;
 }
 
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    background:#000;
+    margin-top:20px;
+}
 </style>
 </head>
 
@@ -77,7 +93,8 @@ h2{
 
 <header>Jurassic World</header>
 
-<img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Jurassic_World_poster.jpg" class="banner">
+<!-- Banner -->
+<img src="banner.PNG" class="banner">
 
 <nav>
 <a href="#intro">Giới thiệu</a>
@@ -89,39 +106,40 @@ h2{
 <section id="intro">
 <h2>Giới thiệu</h2>
 <div class="card">
-<p>Trang web giới thiệu về Jurassic World</p>
-<p>Người thực hiện: <b>Nguyễn Gia Lạc</b></p>
+<p>Trang web giới thiệu về loạt phim Jurassic World.</p>
+<p>Người thực hiện: <b>Nguyễn Gia Lạc</b> - Lớp 12</p>
 </div>
 </section>
 
 <section id="history">
-<h2>Lịch sử</h2>
+<h2>Lịch sử phát triển</h2>
 <div class="card">
 <ul>
 <li>Jurassic World (2015)</li>
-<li>Fallen Kingdom (2018)</li>
-<li>Dominion (2022)</li>
+<li>Jurassic World: Fallen Kingdom (2018)</li>
+<li>Jurassic World: Dominion (2022)</li>
 </ul>
+<p>Loạt phim kể về việc tạo ra khủng long bằng công nghệ di truyền và hậu quả khi mất kiểm soát.</p>
 </div>
 </section>
 
 <section id="achievements">
-<h2>Thành tựu</h2>
+<h2>Thành tựu nổi bật</h2>
 <div class="card">
 <ul>
-<li>Doanh thu hàng tỷ USD</li>
+<li>Doanh thu hàng tỷ USD toàn cầu</li>
 <li>Hiệu ứng CGI hiện đại</li>
-<li>Được yêu thích toàn cầu</li>
+<li>Được yêu thích trên toàn thế giới</li>
 </ul>
 </div>
 </section>
 
 <section id="features">
-<h2>Đặc điểm</h2>
+<h2>Đặc điểm nổi bật</h2>
 <div class="card">
 <ul>
 <li>Khủng long sống động</li>
-<li>Khoa học + hành động</li>
+<li>Kết hợp khoa học và hành động</li>
 <li>Cốt truyện hấp dẫn</li>
 </ul>
 </div>
@@ -130,12 +148,16 @@ h2{
 <section>
 <h2>Hình ảnh</h2>
 <div class="gallery">
-<img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Jurassic_World_Fallen_Kingdom.png">
-<img src="https://upload.wikimedia.org/wikipedia/en/3/3a/Jurassic_World_Dominion_poster.jpg">
-<img src="https://upload.wikimedia.org/wikipedia/en/6/6e/Jurassic_Park_poster.jpg">
-<img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Jurassic_World_poster.jpg">
+<img src="IMG1.JPG">
+<img src="IMG2.JPG">
+<img src="IMG3.WEBP">
+<img src="IMG4.JPG">
 </div>
 </section>
+
+<footer>
+© 2026 - Nguyễn Gia Lạc
+</footer>
 
 </body>
 </html>
